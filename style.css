@@ -1,20 +1,4 @@
-body{
 
-}
-.nav{
-position: fixed;
-box-shadow:  0 2px 0 rgba();
-display: flex;
-top: 0;
-left: 0;
-width: 100%;
-background: var(--main-red);
-z-index: 10;
-}
-.nav-list{
-    display: flex;
-    margin-right: 2rem;
-}
 .welcome-section{
 background-color: #3a3d40;
 width: 100%;
