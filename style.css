@@ -4,21 +4,23 @@ body
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+.topnav{
+    overflow:hidden;
+    background-color: #be3144;
+}
 .topnav a {
 float: right;
-color: maroon;
+color: white;
 text-align: right;
 padding: 14px 16px;
 text-decoration: none;
 font-size: 17px;
+
 }
-.topnav a:hover {
-    background-color: maroon;
-    color:aliceblue;
-}
->>>>>>> 280bdd4a8325bc1d557ab40f20858b55163b7590
+
+
 .welcome-section{
-background-color: #3a3d40;
+background-color: #000;
 width: 100%;
 height: 100vh;
 position: relative;
@@ -27,12 +29,17 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 color: aliceblue;
-font-size: larger;
+font-size: 3rem;
 }
 .welcome-section >p{
-    color: maroon;
+    color: #be3144;
     font-style: italic;
     font-weight: 100;
     font-size: 2rem;
 }
 
+.projects-sectio{
+    text-align: center;
+    background-color: #343c4e;
+    color: white;
+}
