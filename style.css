@@ -1,11 +1,22 @@
-<<<<<<< HEAD
-=======
-:root {
-    --main-red: #be3144;
-}
-body{
->>>>>>> 0ac7d8be7e6a8ed4c8dac119f3e6fe9ce1679121
 
+body
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topnav a {
+float: right;
+color: maroon;
+text-align: right;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+.topnav a:hover {
+    background-color: maroon;
+    color:aliceblue;
+}
+>>>>>>> 280bdd4a8325bc1d557ab40f20858b55163b7590
 .welcome-section{
 background-color: #3a3d40;
 width: 100%;
